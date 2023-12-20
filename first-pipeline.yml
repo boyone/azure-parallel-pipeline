@@ -3,7 +3,7 @@ trigger:
 
 steps:
   - script: |
-      echo 'first pipeline'
+      echo 'first pipeline  '
       echo '$(Build.Repository.ID)'
       commitID=$(git rev-parse --short HEAD)
       echo $commitID 
